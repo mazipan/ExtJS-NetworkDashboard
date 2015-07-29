@@ -1,0 +1,155 @@
+{
+    "chart": {
+        "baseFontSize": "7",
+        "baseFontColor": "FFFFFF",
+        "showvalues": "0",
+        "interactiveLegend": "1",
+        "legendPosition": "RIGHT",
+        "legendBgColor": "#121212",
+        "legendBgAlpha": "100",
+        "legendNumColumns": "1",
+        "legendScrollBgColor": "#121212",
+        "legendScrollBarColor": "#707070",
+        "legendScrollBtnColor": "#707070",
+        "bgColor": "#121212",
+        "bgAlpha": "100",
+        "bgRatio": "100",
+        "canvasBgColor": "#121212",
+        "canvasBgAlpha": "100",
+        "canvasBgRatio": "100",
+        "canvasBorderColor": "FFFFFF",
+        "canvasBorderThickness": "1",
+        "numDivLines": "4",
+        "numVDivLines": "3",
+        "divLineColor": "FFFFFF",
+        "divLineThickness": "1",
+        "divLineAlpha": "50",
+        "lineThickness": "1",
+        "showAlternateHGridColor": "0",
+        "outCnvBaseFontColor": "707070",
+        "showBorder": "0",
+        "toolTipBgColor": "#121212",
+        "paletteColors": "#de002c, #a72edb, #87cf02, #0091d4",
+        "plotGradientColor": ""
+    },
+    "categories": [
+        {
+            "category": [
+                {
+                    "label": "Reg01"
+                },
+                {
+                    "label": "Reg02"
+                },
+                {
+                    "label": "Reg03"
+                },
+                {
+                    "label": "Reg04"
+                },
+                {
+                    "label": "Reg05"
+                },
+                {
+                    "label": "Reg06"
+                }
+            ]
+        }
+    ],
+    "dataset": [
+        {
+            "seriesname": "Data",
+            "data": [
+                {
+                    "value": "3"
+                },
+                {
+                    "value": "5"
+                },
+                {
+                    "value": "7"
+                },
+                {
+                    "value": "8"
+                },
+                {
+                    "value": "10"
+                },
+                {
+                    "value": "6"
+                }
+            ]
+        },
+        {
+            "seriesname": "Voice",
+            "data": [
+                {
+                    "value": "13"
+                },
+                {
+                    "value": "15"
+                },
+                {
+                    "value": "17"
+                },
+                {
+                    "value": "16"
+                },
+                {
+                    "value": "24"
+                },
+                {
+                    "value": "18"
+                }
+            ]
+        },
+        {
+            "seriesname": "CS Performance",
+      		"renderas": "Line",
+            "data": [
+                {
+                    "value": "17"
+                },
+                {
+                    "value": "17"
+                },
+                {
+                    "value": "15"
+                },
+                {
+                    "value": "13"
+                },
+                {
+                    "value": "12"
+                },
+                {
+                    "value": "15"
+                }
+            ]
+        },
+        {
+            "seriesname": "PS Performance",
+      		"renderas": "Line",
+            "data": [
+                {
+                    "value": "16"
+                },
+                {
+                    "value": "25"
+                },
+                {
+                    "value": "14"
+                },
+                {
+                    "value": "15"
+                },
+                {
+                    "value": "19"
+                },
+                {
+                    "value": "14"
+                }
+            ]
+        }
+    ]
+}
