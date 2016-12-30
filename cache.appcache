@@ -1,0 +1,40 @@
+CACHE MANIFEST
+# NETWORK DASHBOARD - 2017-12-15 19:50
+# This part will be store in cache
+
+https://cdnjs.cloudflare.com/ajax/libs/extjs/4.2.1/resources/css/ext-all-gray.css
+https://cdnjs.cloudflare.com/ajax/libs/extjs/4.2.1/resources/ext-theme-gray/ext-theme-gray-all.css
+https://mazipan.github.io/ExtJS-NetworkDashboard/script/css/style.css
+https://fonts.googleapis.com/css?family=Roboto:300,400,500,700
+
+https://cdnjs.cloudflare.com/ajax/libs/extjs/4.2.1/ext-all.min.js
+https://static.fusioncharts.com/code/latest/fusioncharts.js
+https://static.fusioncharts.com/code/latest/fusioncharts.charts.js
+https://static.fusioncharts.com/code/latest/fusioncharts.js?cacheBust=8232
+https://static.fusioncharts.com/code/latest/fusioncharts.charts.js?cacheBust=8232
+
+https://mazipan.github.io/ExtJS-NetworkDashboard/script/js/map-loader.js
+https://mazipan.github.io/ExtJS-NetworkDashboard/app/controller/AppController.js
+https://mazipan.github.io/ExtJS-NetworkDashboard/app/view/MainView.js
+https://mazipan.github.io/ExtJS-NetworkDashboard/app/view/CenterView.js
+https://mazipan.github.io/ExtJS-NetworkDashboard/app/view/UpView.js
+https://mazipan.github.io/ExtJS-NetworkDashboard/app/view/DailyComplainReview.js
+https://mazipan.github.io/ExtJS-NetworkDashboard/app/view/SecurityDashboard.js
+https://mazipan.github.io/ExtJS-NetworkDashboard/app/view/AreaLoad.js
+https://mazipan.github.io/ExtJS-NetworkDashboard/app/view/IncidentAlarmStatus.js
+https://mazipan.github.io/ExtJS-NetworkDashboard/app/view/Top10Worst.js
+https://mazipan.github.io/ExtJS-NetworkDashboard/app/view/NationalAvailibility.js
+https://mazipan.github.io/ExtJS-NetworkDashboard/app/view/NationalCS.js
+https://mazipan.github.io/ExtJS-NetworkDashboard/app/view/NationalPS.js
+https://mazipan.github.io/ExtJS-NetworkDashboard/app/view/MapView.js
+https://mazipan.github.io/ExtJS-NetworkDashboard/app/store/AreaLoadStore.js
+https://mazipan.github.io/ExtJS-NetworkDashboard/app/store/Top10WorstStore.js
+
+https://www.google-analytics.com/analytics.js
+https://maps.googleapis.com/maps/api/js?key=AIzaSyCqVtHdUyAijDEsE4WP7MO23e8vSuRk1Oc
+
+
+NETWORK:
+# This part will be exclude from cache
+./index.html
+https://www.google-analytics.com/*
