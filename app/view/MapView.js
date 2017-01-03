@@ -54,7 +54,7 @@ Ext.define('NETWORKDASHBOARD.view.MapView' ,{
             width : 350,
             labelStyle : 'font-weight: bold; color: white;',
             style : 'font-weight: bold; font-size: 9px; color: white;',
-            fieldLabel : 'Filter For Sites',
+            fieldLabel : 'Filter ',
             margin : '0 30',
             items : [{
                   xtype : 'checkboxfield',
@@ -82,13 +82,13 @@ Ext.define('NETWORKDASHBOARD.view.MapView' ,{
             items : [{
                   xtype : 'checkboxfield',
                   checked : true,
-                  boxLabel : '2G Sites',
+                  boxLabel : 'Data 1',
                   fieldStyle : 'float: right',
                   width : 70 / 1366 * screen.width
                 }, {
                   xtype : 'checkboxfield',
                   checked : true,
-                  boxLabel : '3G Sites',
+                  boxLabel : 'Data 2',
                   fieldStyle : 'float: right',
                   width : 70 / 1366 * screen.width
                 }]
