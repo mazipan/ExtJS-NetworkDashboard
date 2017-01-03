@@ -5,7 +5,7 @@ This is mockup for network dashboard that develop with ExtJS and FusionChart</br
 <a href="https://mazipanneh.wordpress.com/portfolio/network-dashboard/" target="_blank"><img src="https://i1.wp.com/i1176.photobucket.com/albums/x322/mazipanneh/NetworkDashboardByMazipan_zps98eb365f.jpg" alt="NetworkDashboardMockup" /></a>
 
 ## Demo
-<a href="http://mazipan.github.io/ExtJS-NetworkDashboard/">http://mazipan.github.io/ExtJS-NetworkDashboard/</a>
+<a href="https://mazipan.github.io/ExtJS-NetworkDashboard/">https://mazipan.github.io/ExtJS-NetworkDashboard/</a>
 
 ## Using technology</h3>
 - Sencha ExtJS 4.2.1
