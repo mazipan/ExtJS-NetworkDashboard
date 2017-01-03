@@ -4,7 +4,7 @@ Ext.define('NETWORKDASHBOARD.view.IncidentAlarmStatus' ,{
     extend: 'Ext.panel.Panel',
     alias: 'widget.incidentAlarmStatus',
     
-	title : '<font style="font-size: 8pt; color:#dadae0;">INCIDENT ALARM STATUS</font>',
+	title : '<font style="font-size: 8pt; color:#dadae0;">CHART BOX</font>',
     
     header : {
           height : 30 / 768 * screen.height,

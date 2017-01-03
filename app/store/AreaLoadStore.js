@@ -11,6 +11,6 @@ Ext.define('NETWORKDASHBOARD.store.AreaLoadStore', {
 	        {"id":"7", "area":"CSSR 2G", "reg1":"0", "reg2":"0", "reg3":"1", "reg4":"0", "reg5":"0", "reg6":"1", "reg7":"1", "reg8":"1", "reg9":"1", "reg10":"0", "reg11":"1"},
 	        {"id":"8", "area":"CSSR 3G", "reg1":"1", "reg2":"1", "reg3":"1", "reg4":"0", "reg5":"0", "reg6":"0", "reg7":"1", "reg8":"1", "reg9":"1", "reg10":"1", "reg11":"0"},
 	        {"id":"9", "area":"SCR", "reg1":"1", "reg2":"1", "reg3":"1", "reg4":"1", "reg5":"1", "reg6":"1", "reg7":"1", "reg8":"1", "reg9":"1", "reg10":"1", "reg11":"1"},
-	        {"id":"10", "area":"PDP", "reg1":"1", "reg2":"1", "reg3":"1", "reg4":"1", "reg5":"1", "reg6":"1", "reg7":"1", "reg8":"1", "reg9":"1", "reg10":"1", "reg11":"1"}]
+	        {"id":"10","area":"PDP", "reg1":"1", "reg2":"1", "reg3":"1", "reg4":"1", "reg5":"1", "reg6":"1", "reg7":"1", "reg8":"1", "reg9":"1", "reg10":"1", "reg11":"1"}]
 
 });

@@ -2,13 +2,13 @@ Ext.define('NETWORKDASHBOARD.view.Top10Worst' ,{
     extend: 'Ext.panel.Panel',
     alias: 'widget.top10Worst',
     
-	title : '<font style="font-size: 8pt; color:#dadae0;">TOP 10 WORST PERFORMANCE AVAILIBILITY</font>',
+	title : '<font style="font-size: 8pt; color:#dadae0;">TOP 10 DATA TEST</font>',
     
     header : {
           height : 30 / 768 * screen.height,
           style : {
               "cursor" : "pointer",
-			  "background": "#000000",
+			        "background": "#000000",
               "box-shadow" : "#000000 0 0 0 0 inset;",
               "border-width" : "0px",
               "border-top" : '5px solid #b0b0b0',
@@ -37,10 +37,10 @@ Ext.define('NETWORKDASHBOARD.view.Top10Worst' ,{
 		    stripeRows: false
 	  },
 	  columns: [ 
-		  	    { text: '<font style="font-size: 10px; color: white;">Region</font>', dataIndex: 'region', flex :1, baseCls:'custom-header-grid', tdCls: 'greyRowGrid'},
-		  	    { text: '<font style="font-size: 10px; color: white;">Cluster</font>', dataIndex: 'cluster', flex :1, baseCls:'custom-header-grid', tdCls: 'greyRowGrid'},
-		  	    { text: '<font style="font-size: 10px; color: white;">Mitra</font>', dataIndex: 'mitra', flex :1, baseCls:'custom-header-grid', tdCls: 'greyRowGrid'},
-		  	    { text: '<font style="font-size: 10px; color: white;">Availibility</font>', dataIndex: 'avail', flex :1, baseCls:'custom-header-grid', tdCls: 'greyRowGrid'}
+		  	    { text: '<font style="font-size: 10px; color: white;">DATA1</font>', dataIndex: 'region', flex :1, baseCls:'custom-header-grid', tdCls: 'greyRowGrid'},
+		  	    { text: '<font style="font-size: 10px; color: white;">DATA2</font>', dataIndex: 'cluster', flex :1, baseCls:'custom-header-grid', tdCls: 'greyRowGrid'},
+		  	    { text: '<font style="font-size: 10px; color: white;">DATA3</font>', dataIndex: 'mitra', flex :1, baseCls:'custom-header-grid', tdCls: 'greyRowGrid'},
+		  	    { text: '<font style="font-size: 10px; color: white;">DATA4</font>', dataIndex: 'avail', flex :1, baseCls:'custom-header-grid', tdCls: 'greyRowGrid'}
 		  	],
    }],
    

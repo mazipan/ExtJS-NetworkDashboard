@@ -2,7 +2,7 @@ Ext.define('NETWORKDASHBOARD.view.NationalPS' ,{
     extend: 'Ext.panel.Panel',
     alias: 'widget.nationalPS',
     
-	title : '<font style="font-size: 8pt; color:#dadae0;">NATIONAL PS SERVICE</font>',
+	title : '<font style="font-size: 8pt; color:#dadae0;">URGENT</font>',
     
     header : {
           height : 30 / 768 * screen.height,
@@ -53,7 +53,7 @@ Ext.define('NETWORKDASHBOARD.view.NationalPS' ,{
 			
 			items : [{
 				xtype : 'label',
-				text : 'CCSR',
+				text : 'Data 1',
 				cls : 'white-label-small',
 				colspan : 3,
 				tdAttrs : {
@@ -114,7 +114,7 @@ Ext.define('NETWORKDASHBOARD.view.NationalPS' ,{
 			
 			items : [{
 				xtype : 'label',
-				text : 'CSSR',
+				text : 'Data 2',
 				cls : 'white-label-small',
 				colspan : 3,
 				tdAttrs : {
@@ -175,7 +175,7 @@ Ext.define('NETWORKDASHBOARD.view.NationalPS' ,{
 			
 			items : [{
 				xtype : 'label',
-				text : 'PDP',
+				text : 'Data 3',
 				cls : 'white-label-small',
 				colspan : 3,
 				tdAttrs : {
@@ -247,7 +247,7 @@ Ext.define('NETWORKDASHBOARD.view.NationalPS' ,{
 			
 			items : [{
 				xtype : 'label',
-				text : '2G Traffic',
+				text : 'Data 4',
 				cls : 'white-label-small',
 				colspan : 3,
 				tdAttrs : {
@@ -308,7 +308,7 @@ Ext.define('NETWORKDASHBOARD.view.NationalPS' ,{
 			
 			items : [{
 				xtype : 'label',
-				text : '3G Traffic',
+				text : 'Data 5',
 				cls : 'white-label-small',
 				colspan : 3,
 				tdAttrs : {

@@ -4,12 +4,12 @@ Ext.define('NETWORKDASHBOARD.view.DailyComplainReview.' ,{
     extend: 'Ext.panel.Panel',
     alias: 'widget.dailyComplainReview',
     
-	title : '<font style="font-size: 8pt; color:#dadae0;">DAILY COMPLAIN REVIEW</font>',
+	title : '<font style="font-size: 8pt; color:#dadae0;">CHART CLUMN AND LINE 1</font>',
     
     header : {
           height : 30 / 768 * screen.height,
           style : {
-			  "background": "#000000",
+			        "background": "#000000",
               "box-shadow" : "#000000 0 0 0 0 inset;",
               "border-width" : "0px",
               //"border-left" : '5px solid #b0b0b0',

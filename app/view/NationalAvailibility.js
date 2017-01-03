@@ -2,7 +2,7 @@ Ext.define('NETWORKDASHBOARD.view.NationalAvailibility' ,{
     extend: 'Ext.panel.Panel',
     alias: 'widget.nationalAvailibility',
     
-	title : '<font style="font-size: 8pt; color:#dadae0;">NATIONAL AVAILIBILITY</font>',
+	title : '<font style="font-size: 8pt; color:#dadae0;">ERROR</font>',
     
     header : {
           height : 30 / 768 * screen.height,
@@ -50,7 +50,7 @@ Ext.define('NETWORKDASHBOARD.view.NationalAvailibility' ,{
 			
 			items : [{
 				xtype : 'label',
-				text : 'Radio 2G',
+				text : 'Data 1',
 				cls : 'white-label-small',
 				colspan : 3,
 				tdAttrs : {
@@ -111,7 +111,7 @@ Ext.define('NETWORKDASHBOARD.view.NationalAvailibility' ,{
 			
 			items : [{
 				xtype : 'label',
-				text : 'Radio 3G',
+				text : 'Data 2',
 				cls : 'white-label-small',
 				colspan : 3,
 				tdAttrs : {
@@ -183,7 +183,7 @@ Ext.define('NETWORKDASHBOARD.view.NationalAvailibility' ,{
 			
 			items : [{
 				xtype : 'label',
-				text : 'Transport',
+				text : 'Data 3',
 				cls : 'white-label-small',
 				colspan : 3,
 				tdAttrs : {
@@ -244,7 +244,7 @@ Ext.define('NETWORKDASHBOARD.view.NationalAvailibility' ,{
 			
 			items : [{
 				xtype : 'label',
-				text : 'Core',
+				text : 'Data 4',
 				cls : 'white-label-small',
 				colspan : 3,
 				tdAttrs : {
