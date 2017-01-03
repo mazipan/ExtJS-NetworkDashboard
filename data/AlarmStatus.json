@@ -35,16 +35,16 @@
         {
             "category": [
                 {
-                    "label": "Regional 01"
+                    "label": "Category 01"
                 },
                 {
-                    "label": "Regional 02"
+                    "label": "Category 02"
                 },
                 {
-                    "label": "Regional 03"
+                    "label": "Category 03"
                 },
                 {
-                    "label": "Regional 04"
+                    "label": "Category 04"
                 }
             ]
         }

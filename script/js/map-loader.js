@@ -39,39 +39,15 @@ function load_local_marker(map){
 			var	myLatLng = new google.maps.LatLng(obj.latlong[0], obj.latlong[1]);
 			var marker = new google.maps.Marker({
 				position: myLatLng,
-				title: obj.hotspotName
+				title: obj.titleMarker
 			});
 			
-			if(obj.category=='Platinum'){
-				if(obj.alarm == 0){
-					marker.setIcon('./images/markers/platinum-site.png');
-				} else if(obj.alarm == 1){
-					marker.setIcon('./images/markers/platinum-site.png');
-					marker.setZIndex(redStartZIndex);  redStartZIndex++;
-				} else if(obj.alarm == 2){
-					marker.setIcon('./images/markers/platinum-site.png');
-					marker.setZIndex(yellowStartZIndex);  yellowStartZIndex++;
-				}
-			} else if(obj.category=='Gold'){
-				if(obj.alarm == 0){
-					marker.setIcon('./images/markers/gold-site.png');
-				} else if(obj.alarm == 1){
-					marker.setIcon('./images/markers/gold-site.png');
-					marker.setZIndex(redStartZIndex);  redStartZIndex++;
-				} else if(obj.alarm == 2){
-					marker.setIcon('./images/markers/gold-site.png');
-					marker.setZIndex(yellowStartZIndex);  yellowStartZIndex++;
-				}
-			} else if(obj.category=='Silver'){
-				if(obj.alarm == 0){
-					marker.setIcon('./images/markers/silver-site.png');
-				} else if(obj.alarm == 1){
-					marker.setIcon('./images/markers/silver-site.png');
-					marker.setZIndex(redStartZIndex);  redStartZIndex++;
-				} else if(obj.alarm == 2){
-					marker.setIcon('./images/markers/silver-site.png');
-					marker.setZIndex(yellowStartZIndex);  yellowStartZIndex++;
-				}
+			if(obj.category=='1'){
+					marker.setIcon('./images/markers/marker-1.png');
+			} else if(obj.category=='2'){
+					marker.setIcon('./images/markers/marker-2.png');
+			} else if(obj.category=='3'){
+					marker.setIcon('./images/markers/marker-3.png');
 			}
 			
 			

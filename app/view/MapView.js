@@ -4,26 +4,26 @@ var map_legend =
 	'		<tr><td colspan=2><font style="color: #088ccf; font-size: 12px; font-weight: bold;">Legend</font></td></tr>' + 
 
     '		<tr>' +
-	'			<td align="center"> <img src="./images/markers/platinum-site.png" width="14" height="16"></img> </td>' +
-	'			<td>Platinum Sites</td>' +
+	'			<td align="center"> <img src="./images/markers/marker-1.png" width="14" height="16"></img> </td>' +
+	'			<td>Legend 1</td>' +
 	'			<td><input type="checkbox"/></td>' +
 	'		</tr>' +
 
     '		<tr>' +
-	'			<td align="center"> <img src="./images/markers/gold-site.png" width="14" height="16"></img> </td>' +
-	'			<td>Gold Sites</td>' +
+	'			<td align="center"> <img src="./images/markers/marker-2.png" width="14" height="16"></img> </td>' +
+	'			<td>Legend 2</td>' +
 	'			<td><input type="checkbox"/></td>' +
 	'		</tr>' +
 	
     '		<tr>' +
-	'			<td align="center"> <img src="./images/markers/silver-site.png" width="14" height="16"></img> </td>' +
-	'			<td>Silver Sites</td>' +
+	'			<td align="center"> <img src="./images/markers/marker-3.png" width="14" height="16"></img> </td>' +
+	'			<td>Legend 3</td>' +
 	'			<td><input type="checkbox"/></td>' +
 	'		</tr>' +
 
     '		<tr>' +
-	'			<td align="center"> <img src="./images/markers/platinum-hotspot.png" width="16" height="16"></img> </td>' +
-	'			<td>Platinum Hotspots</td>' +
+	'			<td align="center"> <img src="./images/markers/marker-4.png" width="16" height="16"></img> </td>' +
+	'			<td>Legend 4</td>' +
 	'			<td><input type="checkbox"/></td>' +
 	'		</tr>' +
 	

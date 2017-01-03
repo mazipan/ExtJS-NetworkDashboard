@@ -58,7 +58,7 @@
     ],
     "dataset": [
         {
-            "seriesname": "Data",
+            "seriesname": "Data 1",
             "data": [
                 {
                     "value": "50"
@@ -81,7 +81,7 @@
             ]
         },
         {
-            "seriesname": "Voice",
+            "seriesname": "Data 2",
             "data": [
                 {
                     "value": "250"
@@ -104,7 +104,7 @@
             ]
         },
         {
-            "seriesname": "CS Performance",
+            "seriesname": "Data 3",
       		"renderas": "Line",
       		"parentyaxis": "S",
             "data": [
@@ -129,7 +129,7 @@
             ]
         },
         {
-            "seriesname": "PS Performance",
+            "seriesname": "Data 4",
       		"renderas": "Line",
       		"parentyaxis": "S",
             "data": [

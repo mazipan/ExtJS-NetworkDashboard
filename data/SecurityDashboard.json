@@ -36,29 +36,29 @@
         {
             "category": [
                 {
-                    "label": "Reg01"
+                    "label": "Cat-01"
                 },
                 {
-                    "label": "Reg02"
+                    "label": "Cat-02"
                 },
                 {
-                    "label": "Reg03"
+                    "label": "Cat-03"
                 },
                 {
-                    "label": "Reg04"
+                    "label": "Cat-04"
                 },
                 {
-                    "label": "Reg05"
+                    "label": "Cat-05"
                 },
                 {
-                    "label": "Reg06"
+                    "label": "Cat-06"
                 }
             ]
         }
     ],
     "dataset": [
         {
-            "seriesname": "Data",
+            "seriesname": "Data 1",
             "data": [
                 {
                     "value": "3"
@@ -81,7 +81,7 @@
             ]
         },
         {
-            "seriesname": "Voice",
+            "seriesname": "Data 2",
             "data": [
                 {
                     "value": "13"
@@ -104,7 +104,7 @@
             ]
         },
         {
-            "seriesname": "CS Performance",
+            "seriesname": "Data 3",
       		"renderas": "Line",
             "data": [
                 {
@@ -128,7 +128,7 @@
             ]
         },
         {
-            "seriesname": "PS Performance",
+            "seriesname": "Data 4",
       		"renderas": "Line",
             "data": [
                 {
