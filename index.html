@@ -31,6 +31,25 @@
 	    
 	    <script type="text/javascript" src="./script/js/jquery-2.1.1.min.js"></script>    
 	    <script type="text/javascript" src="./script/js/map-loader.js"></script>    
-	    <script type="text/javascript" src="./script/js/index.js"></script>   
+	    <script type="text/javascript" src="./script/js/index.js"></script>  
+
+	    <script>
+		    function _trackLink(linkClick, category, action){
+		        if(!category) category = 'Link';
+		        if(!action) action = 'click';
+		        ga('send', {
+		          hitType: 'event',
+		          eventCategory: category,
+		          eventAction: action,
+		          eventLabel: linkClick
+		        });
+		      }    
+
+		      $(window).load(function(){
+		        try{
+		          _trackLink('demo ExtJS-NetworkDashboard', 'demo', 'visit directly');
+		        }catch(err){}
+		      });
+		</script> 
 	</body>
 </html>
